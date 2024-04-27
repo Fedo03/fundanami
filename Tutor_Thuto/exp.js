@@ -1,6 +1,11 @@
 const { GenerativeModel, configure, get_file, upload_file, delete_file } = require('google-generativeai');
 const { createHash } = require('crypto');
 const fs = require('fs');
+const {
+  GoogleGenerativeAI,
+  HarmCategory,
+  HarmBlockThreshold,
+} = require("@google/generative-ai");
 
 configure({ api_key: "AIzaSyBXFvjbENfAN3m-sr1ow_XKqRY1LDx9SVM" });
 
