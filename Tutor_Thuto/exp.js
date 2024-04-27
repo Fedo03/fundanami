@@ -2,7 +2,7 @@ const { GenerativeModel, configure, get_file, upload_file, delete_file } = requi
 const { createHash } = require('crypto');
 const fs = require('fs');
 
-configure({ api_key: "YOUR_API_KEY" });
+configure({ api_key: "AIzaSyBXFvjbENfAN3m-sr1ow_XKqRY1LDx9SVM" });
 
 const generation_config = {
   temperature: 1,
